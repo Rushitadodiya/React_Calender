@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh; /* Set height to full viewport height */
+    margin-bottom: 14px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    /* background-color: lightblue; */
+    /* width: 1000px; */
+  }
+  
+  .header-image {
+    width: 180px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust spacing */
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-head{
+    font-size: 60px; /* Adjust font size */
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+    color: rgb(48, 48, 163);
+    font-family: 'Cambria Math', serif;
+    position: relative;
+    text-transform: uppercase; /* Transform text to all uppercase */
+  }
+  
+  .main-head::after {
+    content: ''; /* Add empty content */
+    display: block;
+    width: 100%; /* Set width to full width of the container */
+    height: 2px; /* Set height to desired thickness of the line */
+    background-color:  rgb(48, 48, 163); /* Set color of the line */
+    position: absolute; /* Position the line absolutely */
+    bottom: -5px; /* Adjust position to place the line below the heading */
+  }
+  
+  
+  .sub-heading {
+    font-size: 23px; /* Adjust font size */
+    margin: 0; /* Remove default margin */
+    color: brown;
+    /* text-transform: uppercase; Transform text to all uppercase */
+  }

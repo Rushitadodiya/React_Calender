@@ -1,0 +1,31 @@
+[
+    {
+        "DayE":"SUN",
+        "DayG":"રવિ"
+    },
+    {
+        "DayE":"MON",
+        "DayG":"સોમ"
+    },
+    {
+        "DayE":"TUE",
+        "DayG":"મંગળ"
+    },
+    {
+        "DayE":"WED",
+        "DayG":"બુધ"
+    },
+    {
+        "DayE":"THU",
+        "DayG":"ગુરુ"
+    },
+    {
+        "DayE":"FRI",
+        "DayG":"શુક્ર"
+    },
+    {
+        "DayE":"SAT",
+        "DayG":"શનિ"
+    }
+   
+]
